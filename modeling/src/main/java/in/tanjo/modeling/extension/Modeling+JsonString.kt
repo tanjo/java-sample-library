@@ -7,5 +7,9 @@ public fun <T> Modeling<T>.fromJson(json: String?): T? {
     if (json.isNullOrEmpty()) {
         return null
     }
-    return fromJsonObject(JSONObject(json))
+    try {
+        return fromJsonObject(JSONObject(json))
+    } catch (ignore: Exception) {
+        return null
+    }
 }
