@@ -1,6 +1,6 @@
 package `in`.tanjo.modeling
 
-interface Dictionarize {
+public interface Dictionarize {
 
     fun toDictionary(): Map<String, @JvmSuppressWildcards Any>
 }

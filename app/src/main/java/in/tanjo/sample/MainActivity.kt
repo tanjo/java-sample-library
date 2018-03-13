@@ -1,4 +1,4 @@
-package `in`.tanjo.samplelibrary
+package `in`.tanjo.sample
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

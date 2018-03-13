@@ -1,4 +1,4 @@
-package `in`.tanjo.samplelibrary
+package `in`.tanjo.sample
 
 import org.junit.Test
 

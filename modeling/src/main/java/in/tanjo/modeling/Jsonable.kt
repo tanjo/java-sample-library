@@ -2,7 +2,7 @@ package `in`.tanjo.modeling
 
 import org.json.JSONObject
 
-interface Jsonable {
+public interface Jsonable {
 
     fun toJsonObject(): JSONObject
 }
