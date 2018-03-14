@@ -1,3 +1,4 @@
+@file:JvmName("ModelingUtils")
 package `in`.tanjo.modeling.extension
 
 import `in`.tanjo.modeling.Modeling

@@ -1,3 +1,4 @@
+@file:JvmName("JsonableUtils")
 package `in`.tanjo.modeling.extension
 
 import `in`.tanjo.modeling.Jsonable
